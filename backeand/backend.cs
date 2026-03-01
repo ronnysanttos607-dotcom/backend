@@ -76,7 +76,7 @@ namespace SGV2
                 try
                 {
                     var env = __instance._runtimeConfiguration._environmentRuntimeConfiguration;
-                    env._backendHost = "https://backendtestexx.squareweb.app/";
+                    env._backendHost = "";
                     env._environmentId = "Stumble King";
                     env._displayEnvironment = true;
                 }
@@ -86,7 +86,7 @@ namespace SGV2
 
         public static int userId;
 
-        public static string BackendUrl = "https://backendtestexx.squareweb.app/";
+        public static string BackendUrl = "";
 
         public static string hash = "VinAW5ATPxIZS3fe9OEqirN35SyOil4zMTgiHFAOfKkkamiTV0EqKjXibc9ZydTHAsSVBMWww71bnGieUQDgwqVE-6aMBLYLbQv6i5N5y7bC5SajqSjHPzt8UJUqbZ8a";
 
