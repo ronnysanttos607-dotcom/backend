@@ -1,0 +1,28 @@
+{
+  "name": "stumble-born-backend",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node discord-bot.js",
+    "start-all": "node start-all.js",
+    "test-bot": "node test-bot.js",
+    "test-bot-connection": "node test-bot-connection.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "base-x": "^5.0.0",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "steam-user": "^5.2.0",
+    "uuid": "^10.0.0"
+  }
+}
